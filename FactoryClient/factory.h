@@ -106,6 +106,7 @@ public:
     	for(auto & element : vehicles)
     	{
       		element->PrintVehicleInfo();
+      		std::cout<<&element<<std::endl;
     	}
     }
 
